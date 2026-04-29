@@ -1,5 +1,7 @@
 # 📡 Wi-Fi Security Audit & WPA2 Monitoring Lab
 
+This project demonstrates a practical approach to wireless security auditing using real packet capture and analysis techniques.
+
 ## 📌 Description
 
 This project demonstrates a structured wireless security audit performed in a **controlled lab environment**.
@@ -26,7 +28,7 @@ It focuses on identifying wireless networks, capturing packets in monitor mode, 
 ---
 
 ## 🧠 Lab Workflow
-
+Interface → Monitor Mode → Scan → Capture → Analyze
 ### 🔹 Step 1: Interface Detection
 
 Used `iwconfig` to identify the wireless adapter.
@@ -132,6 +134,11 @@ wireshark capture-01.cap
 * Disable WPS
 * Regularly monitor connected devices
 
+---
+## 🧠 Key Learnings
+- Understood wireless packet flow and 802.11 protocol basics  
+- Learned how monitor mode enables passive traffic capture  
+- Gained experience in analyzing network behavior using Wireshark
 ---
 
 ## ⚠️ Disclaimer
